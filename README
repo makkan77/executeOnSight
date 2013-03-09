@@ -1,6 +1,12 @@
+Shell script created by Markus Ulfberg 2013-03-07
+
 Runs desired $ACTION when $FILE is present in $DIR
 For instance when a USB stick containing the file "systemHaltNow" is found 
 in "/media/usb-shutdown" the script executes "/sbin/shutdown -h now"
 
-Shell script by Markus Ulfberg 2013-03-07
+I created this as way to make an old laptop converted into a digital picture 
+frame shut down nicely without having to connect a keyboard. 
+For this I have roots cron-daemon running the script every minute. 
+Other uses could be to show pictures on an inserted USB stick etc. 
+
 
