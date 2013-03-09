@@ -1,0 +1,6 @@
+Runs desired $ACTION when $FILE is present in $DIR
+For instance when a USB stick containing the file "systemHaltNow" is found 
+in "/media/usb-shutdown" which causes the script to execute "/sbin/shutdown -h now"
+
+Shell script by Markus Ulfberg 2013-03-07
+
