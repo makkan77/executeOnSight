@@ -2,7 +2,7 @@
 
 # executeOnSight.sh 
 # Runs desired $ACTION when $FILE is present in $DIR 
-# Shell script by Markus Ulfberg 2013-03-07
+# Shell script created by Markus Ulfberg 2013-03-07
 
 # Variables
 # Path where FILE is expected
