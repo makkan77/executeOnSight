@@ -6,7 +6,7 @@ in "/media/usb-shutdown" the script executes "/sbin/shutdown -h now"
 
 I created this as way to make an old laptop converted into a digital picture 
 frame shut down nicely without having to connect a keyboard. 
-For this I have roots cron-daemon running the script every minute. 
+For this I have roots crontab running the script every minute. 
 Other uses could be to show pictures on an inserted USB stick etc. 
 
 
