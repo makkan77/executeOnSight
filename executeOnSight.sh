@@ -12,6 +12,9 @@ FILE=systemHaltNow
 # Action/Task/Command to perfrm 
 ACTION="/sbin/shutdown -h now"
 
+# Pause for a while, wait for automount to finish up etc. 
+sleep 10
+
 # Check if FILE exists and is not empty. 
 if [ ! -s $DIR/$FILE ]
 	then
